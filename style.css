@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* This centers the children horizontally */
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    background-color: rgb(8, 179, 247);
+    padding: 6px;
+    font-size: 60px;
+    width: 100%; /* Ensures the heading spans the full width */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the form and button */
+    justify-content: center;
+    width: 100%; /* Ensures container takes up the full width */
+}
+
+input {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: skyblue;
+    font-size: 25px;
+    max-width: 90%; /* Use max-width to prevent overflow on small screens */
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: skyblue;
+    margin-top: 10px; /* Adds some space between the input and button */
+}
